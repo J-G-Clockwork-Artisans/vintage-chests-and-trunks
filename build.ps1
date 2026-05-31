@@ -6,7 +6,14 @@ $ErrorActionPreference = "Stop"
 # Paths
 $ModDir = $PSScriptRoot
 $ReleaseDir = Join-Path $ModDir "release"
-$ModZipName = "vintagechestsandtrunks_v1.0.0.zip"
+
+# Read version and modid from modinfo.json
+$ModInfoPath = Join-Path $ModDir "resources\modinfo.json"
+$ModInfo = Get-Content -Raw -Path $ModInfoPath | ConvertFrom-Json
+$ModId = $ModInfo.modid
+$ModVersion = $ModInfo.version
+
+$ModZipName = "$($ModId)_v$($ModVersion).zip"
 $ModZipPath = Join-Path $ReleaseDir $ModZipName
 
 $GameModsDir = Join-Path $env:APPDATA "VintagestoryData\Mods"
@@ -25,8 +32,8 @@ if (-not (Test-Path $CentralReleasesDir)) {
     Write-Output "Created central releases directory: $CentralReleasesDir"
 }
 
-# 2. Package mod into zip using 7z
-Write-Output "Packaging files using 7z..."
+# 2. Package mod into zip using .NET ZipFile
+Write-Output "Packaging files using .NET ZipFile..."
 
 # Ensure we are in the mod directory to zip from its root
 Push-Location $ModDir
@@ -45,8 +52,15 @@ try {
     New-Item -ItemType Directory -Path $TempBuildDir | Out-Null
 
     # Copy files/folders to the temporary build dir
-    Copy-Item -Path "modinfo.json" -Destination $TempBuildDir -Force
-    Copy-Item -Path "assets" -Destination $TempBuildDir -Recurse -Force
+    Copy-Item -Path "resources\modinfo.json" -Destination $TempBuildDir -Force
+    
+    if (Test-Path "resources\assets") {
+        Copy-Item -Path "resources\assets" -Destination $TempBuildDir -Recurse -Force
+    }
+
+    if (Test-Path "modicon.png") {
+        Copy-Item -Path "modicon.png" -Destination $TempBuildDir -Force
+    }
 
     # Run ZipFile from .NET (generates valid ZIP headers with forward slashes '/' compatible with Linux!)
     Add-Type -AssemblyName System.IO.Compression.FileSystem
