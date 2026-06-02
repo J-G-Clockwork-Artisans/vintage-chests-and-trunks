@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.1.0-rc.2] - 2026-06-02
+## [1.1.0] - 2026-06-02
 
 ### Fixed
 - **Linux Compatibility:** Normalized ZIP archive entry path separators (converting Windows backslashes `\` to standard forward slashes `/`). This resolves the issue where Linux-based servers failed to find and load asset files from the mod ZIP.
