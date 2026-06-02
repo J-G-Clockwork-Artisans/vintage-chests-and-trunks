@@ -62,9 +62,17 @@ try {
         Copy-Item -Path "modicon.png" -Destination $TempBuildDir -Force
     }
 
-    # Run ZipFile from .NET (generates valid ZIP headers with forward slashes '/' compatible with Linux!)
-    Add-Type -AssemblyName System.IO.Compression.FileSystem
-    [System.IO.Compression.ZipFile]::CreateFromDirectory($TempBuildDir, $ModZipPath)
+    # Run 7z to compress the directory, ensuring Linux-compatible forward slashes
+    $OldLocation = Get-Location
+    Set-Location $TempBuildDir
+    try {
+        & 7z a -tzip $ModZipPath "*" | Out-Null
+    } finally {
+        Set-Location $OldLocation
+    }
+
+    # Normalize backslashes to forward slashes for Linux compatibility
+    python (Join-Path $ModDir "fix_zip_headers.py") $ModZipPath
 
     # Clean up temp build folder
     Remove-Item $TempBuildDir -Recurse -Force | Out-Null
