@@ -1,6 +1,6 @@
 {
   "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
-  "type": "Content",
+  "type": "code",
   "side": "Universal",
   "requiredOnClient": true,
   "requiredOnServer": true,
