@@ -110,5 +110,7 @@
   "block-normal-generic-chest-chlorociboria-*": "Прокрашенный хлороциборией сундук",
   "block-normal-generic-trunk-chlorociboria-*": "Большой Прокрашенный хлороциборией сундук",
   "block-normal-generic-chest-petrified-*": "Сундук из окаменелого дерева",
-  "block-normal-generic-trunk-petrified-*": "Большой сундук из окаменелого дерева"
+  "block-normal-generic-trunk-petrified-*": "Большой сундук из окаменелого дерева",
+  "block-normal-generic-chest-rosewood-*": "Палисандровый сундук",
+  "block-normal-generic-trunk-rosewood-*": "Большой палисандровый сундук"
 }

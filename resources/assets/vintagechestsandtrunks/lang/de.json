@@ -110,5 +110,7 @@
   "block-normal-generic-chest-chlorociboria-*": "Grünspan-Becherling-Truhe",
   "block-normal-generic-trunk-chlorociboria-*": "Grünspan-Becherling-Kiste",
   "block-normal-generic-chest-petrified-*": "Versteinertes Holz-Truhe",
-  "block-normal-generic-trunk-petrified-*": "Versteinertes Holz-Kiste"
+  "block-normal-generic-trunk-petrified-*": "Versteinertes Holz-Kiste",
+  "block-normal-generic-chest-rosewood-*": "Rosenholz-Truhe",
+  "block-normal-generic-trunk-rosewood-*": "Rosenholz-Kiste"
 }

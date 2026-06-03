@@ -110,5 +110,7 @@
   "block-normal-generic-chest-mangrove-*": "Mangrove Chest",
   "block-normal-generic-trunk-mangrove-*": "Mangrove Trunk",
   "block-normal-generic-chest-charred-*": "Charred Chest",
-  "block-normal-generic-trunk-charred-*": "Charred Trunk"
+  "block-normal-generic-trunk-charred-*": "Charred Trunk",
+  "block-normal-generic-chest-rosewood-*": "Rosewood Chest",
+  "block-normal-generic-trunk-rosewood-*": "Rosewood Trunk"
 }

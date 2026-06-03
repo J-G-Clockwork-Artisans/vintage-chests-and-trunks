@@ -89,6 +89,7 @@
 		"lid": { "base": "game:block/wood/planks/{wood}*" },
 		"accessories": { "base": "game:block/wood/trunk/accessories" }
 	},
+	"texturesByType": {},
 	"blockmaterial": "Wood",
 	"replaceable": 900,
 	"resistance": 3,

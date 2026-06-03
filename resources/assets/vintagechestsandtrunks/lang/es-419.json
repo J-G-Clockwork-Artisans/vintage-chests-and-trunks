@@ -110,5 +110,7 @@
   "block-normal-generic-chest-chlorociboria-*": "Cofre de madera teñida con chlorociboria",
   "block-normal-generic-trunk-chlorociboria-*": "Arcón de madera teñida con chlorociboria",
   "block-normal-generic-chest-petrified-*": "Cofre de madera petrificada",
-  "block-normal-generic-trunk-petrified-*": "Arcón de madera petrificada"
+  "block-normal-generic-trunk-petrified-*": "Arcón de madera petrificada",
+  "block-normal-generic-chest-rosewood-*": "Cofre de palo de rosa",
+  "block-normal-generic-trunk-rosewood-*": "Arcón de palo de rosa"
 }

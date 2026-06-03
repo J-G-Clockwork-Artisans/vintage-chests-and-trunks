@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0-rc.1] - 2026-06-02
+
+### Added
+- **Biodiversity: Trees Support:** Added compatibility for **42 wood variants** from the *Biodiversity: Trees* (`bdtree`) mod.
+- **Biodiversity Crafting Recipes:** Added recipes for all 42 Biodiversity wood chests/trunks.
+- **Biodiversity Translations:** Localized all new chests and trunks in English and Portuguese.
+
+---
+
 ## [1.1.0] - 2026-06-02
 
 ### Fixed

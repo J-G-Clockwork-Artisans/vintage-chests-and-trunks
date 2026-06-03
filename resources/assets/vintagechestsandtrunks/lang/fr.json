@@ -110,5 +110,7 @@
   "block-normal-generic-chest-chlorociboria-*": "Coffre en Bloc de planches teintés par une pézize turquoise",
   "block-normal-generic-trunk-chlorociboria-*": "Malle en Bloc de planches teintés par une pézize turquoise",
   "block-normal-generic-chest-petrified-*": "Coffre en bois pétrifié",
-  "block-normal-generic-trunk-petrified-*": "Malle en bois pétrifié"
+  "block-normal-generic-trunk-petrified-*": "Malle en bois pétrifié",
+  "block-normal-generic-chest-rosewood-*": "Coffre en bois de rose",
+  "block-normal-generic-trunk-rosewood-*": "Malle en bois de rose"
 }

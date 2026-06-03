@@ -110,5 +110,7 @@
   "block-normal-generic-chest-mangrove-*": "Baú de mangue",
   "block-normal-generic-trunk-mangrove-*": "Arca de mangue",
   "block-normal-generic-chest-charred-*": "Baú de madeira carbonizada",
-  "block-normal-generic-trunk-charred-*": "Arca de madeira carbonizada"
+  "block-normal-generic-trunk-charred-*": "Arca de madeira carbonizada",
+  "block-normal-generic-chest-rosewood-*": "Baú de pau-rosa",
+  "block-normal-generic-trunk-rosewood-*": "Arca de pau-rosa"
 }
