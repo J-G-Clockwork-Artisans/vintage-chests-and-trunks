@@ -1,0 +1,166 @@
+{
+	"code": "labeledtrunk",
+	"class": "BlockGenericTypedContainerTrunk",
+	"entityclass": "VintageLabeledTrunk",
+	"attributes": {
+		"reinforcable": true,
+		"partialAttachable": true,
+		"humanoidTraversalCost": 100,
+		"inventoryClassName": "chest",
+		"defaultType": "normal-labeled",
+		"types": ["normal-labeled"],
+		"rotatatableInterval": {
+			"normal-labeled": "22.5degnot45deg"
+		},
+		"drop": {
+			"normal-labeled": true
+		},
+		"quantitySlots": {
+			"normal-labeled": 36
+		},
+		"quantityColumns": {
+			"normal-labeled": 9
+		},
+		"dialogTitleLangCode": {
+			"normal-labeled": "trunkcontents"
+		},
+		"storageType": {
+			"normal-labeled": 189
+		},
+		"retrieveOnly": {
+			"normal-labeled": false
+		},
+		"shape": {
+			"normal-labeled": "vintagechestsandtrunks:block/wood/chest/double-labeled"
+		},
+		"typedOpenSound": {
+			"normal-labeled": "game:sounds/block/largechestopen"
+		},
+		"typedCloseSound": {
+			"normal-labeled": "game:sounds/block/largechestclose"
+		},
+		"variantByGroup": "side",
+		"variantByGroupInventory": "wood"
+	},
+	"behaviors": [
+		{ "name": "HorizontalOrientable"},
+		{ "name": "Multiblock", "propertiesByType": {
+				"*-north": { "sizex": 2, "sizey": 1, "sizez": 1, "cposition": { "x": 0, "y": 0, "z": 0 } },
+				"*-east": { "sizex": 1, "sizey": 1, "sizez": 2, "cposition": { "x": 0, "y": 0, "z": 0 } },
+				"*-south": { "sizex": 2, "sizey": 1, "sizez": 1, "cposition": { "x": 1, "y": 0, "z": 0 } },
+				"*-west": { "sizex": 1, "sizey": 1, "sizez": 2, "cposition": { "x": 0, "y": 0, "z": 1 } } 
+			}
+		},
+		{ "name": "Lockable" },
+		{ "name": "Container"}
+	],
+	"entityBehaviors": [{ "name": "Animatable" }],
+	"variantgroups": [
+		{ "code": "wood", "states": ["oak", "birch", "pine", "redwood", "ebony", "larch", "kapok", "maple", "purpleheart", "walnut", "baldcypress", "acacia"] },
+		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
+	],
+	"creativeinventory": { },
+	"creativeinventoryStacksByType": {
+		"*-east": [
+			{
+				"tabs": [ "general", "decorative" ],
+				"stacks": [
+					{ "type": "block", "code": "labeledtrunk-{wood}-east", "attributes": { "type": "normal-labeled" } }
+				]
+			}
+		]
+	},
+	"heldTpIdleAnimation": "holdunderarm",
+	"shapeInventory": { "base": "vintagechestsandtrunks:block/wood/chest/double-labeled", "rotateY": 270 },
+	"shapeByType": {
+		"*-north": { "base": "game:block/wood/trunk/normal", "rotateY": 0 },
+		"*-east": { "base": "game:block/wood/trunk/normal", "rotateY": 270 },
+		"*-west": { "base": "game:block/wood/trunk/normal", "rotateY": 90 },
+		"*-south": { "base": "game:block/wood/trunk/normal", "rotateY": 180 }
+	},
+	"textures": {
+		"normal-labeled-right-side": {
+			"base": "game:block/wood/planks/{wood}*",
+			"blendedOverlays": [
+				{ "base": "vintagechestsandtrunks:block/wood/trunk/right-side", "blendMode": "Normal" }
+			]
+		},
+		"normal-labeled-left-side": {
+			"base": "game:block/wood/planks/{wood}*",
+			"blendedOverlays": [
+				{ "base": "vintagechestsandtrunks:block/wood/trunk/left-side", "blendMode": "Normal" }
+			]
+		},
+		"normal-labeled-sides2": {
+			"base": "game:block/wood/planks/{wood}*",
+			"blendedOverlays": [
+				{ "base": "vintagechestsandtrunks:block/wood/trunk/sides", "blendMode": "Normal" }
+			]
+		},
+		"normal-labeled-lid": { "base": "game:block/wood/planks/{wood}*" },
+		"normal-labeled-accessories": { "base": "game:block/wood/trunk/accessories" },
+		"normal-labeled-label": { "base": "game:block/wood/chest/label" },
+
+		"right-side": {
+			"base": "game:block/wood/planks/{wood}*",
+			"blendedOverlays": [
+				{ "base": "vintagechestsandtrunks:block/wood/trunk/right-side", "blendMode": "Normal" }
+			]
+		},
+		"left-side": {
+			"base": "game:block/wood/planks/{wood}*",
+			"blendedOverlays": [
+				{ "base": "vintagechestsandtrunks:block/wood/trunk/left-side", "blendMode": "Normal" }
+			]
+		},
+		"sides2": {
+			"base": "game:block/wood/planks/{wood}*",
+			"blendedOverlays": [
+				{ "base": "vintagechestsandtrunks:block/wood/trunk/sides", "blendMode": "Normal" }
+			]
+		},
+		"lid": { "base": "game:block/wood/planks/{wood}*" },
+		"accessories": { "base": "game:block/wood/trunk/accessories" },
+		"label": { "base": "game:block/wood/chest/label" }
+	},
+	"texturesByType": {},
+	"blockmaterial": "Wood",
+	"replaceable": 900,
+	"resistance": 3,
+	"lightAbsorption": 0,
+	"sideAo": { "all": false },
+	"sidesolid": {
+		"all": false
+	},
+	"sideopaque": {
+		"all": false
+	},
+	"collisionSelectionBox": {
+		"x1": 0.0625, "y1": 0, "z1": 0.0625, "x2": 1, "y2": 0.8125, "z2": 0.9375,
+		"rotateYByType": {
+			"*-east": 270,
+			"*-west": 90,
+			"*-south": 180
+		}
+	},
+	"combustibleProps": {
+		"burnTemperature": 600,
+		"burnDuration": 35
+	},
+	"sounds": {
+		"place": "game:block/planks",
+		"hit": "game:block/planks",
+		"break": "game:block/planks",
+		"walk": "game:walk/wood"
+	},
+	"materialDensity": 600,
+	"tpHandTransform": {
+		"translation": { "x": -0.3, "y": -0.5, "z": -0.3 },
+		"rotation": { "x": 0, "y": 90, "z": -102 },
+		"scale": 0.56
+	},
+	"guiTransform": {
+		"origin": { "x": 0.5, "y": 0.5, "z": 0.97 },
+		"scale": 0.95
+	}
+}

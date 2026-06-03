@@ -16,6 +16,7 @@
 # Compilations (if any C# added in future)
 bin/
 obj/
+build/
 
 # System files
 Thumbs.db

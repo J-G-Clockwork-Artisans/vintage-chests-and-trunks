@@ -1,0 +1,26 @@
+[
+	{
+		"ingredientPattern": "WW",
+		"ingredients": {
+			"W": { "type": "block", "code": "vintagechestsandtrunks:labeledchest-*-east", "name": "wood", "attributes": { "type": "normal-labeled" } }
+		},
+		"width": 2,
+		"height": 1,
+		"shapeless": true,
+		"output": { "type": "block", "code": "vintagechestsandtrunks:labeledtrunk-{wood}-east", "attributes": { "type": "normal-labeled" } }
+	},
+	{
+		"ingredientPattern": "S,T",
+		"ingredients": {
+			"S": { "type": "block", "code": "game:sign-ground-north" },
+			"T": { "type": "block", "code": "vintagechestsandtrunks:trunk-{wood}-east", "attributes": { "type": "normal-generic" } }
+		},
+		"allowedVariants": {
+			"wood": ["oak", "birch", "pine", "redwood", "ebony", "larch", "kapok", "maple", "purpleheart", "walnut", "baldcypress", "acacia"]
+		},
+		"width": 1,
+		"height": 2,
+		"shapeless": true,
+		"output": { "type": "block", "code": "vintagechestsandtrunks:labeledtrunk-{wood}-east", "attributes": { "type": "normal-labeled" } }
+	}
+]
