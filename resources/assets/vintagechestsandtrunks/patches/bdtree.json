@@ -22,6 +22,17 @@
         ]
     },
     {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "ash",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
@@ -34,6 +45,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "azobe",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "azobe",
@@ -56,6 +78,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "banyan",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "banyan",
@@ -78,6 +111,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "beech",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "beech",
@@ -100,6 +144,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "bearnut",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "bearnut",
@@ -122,6 +177,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "bluemahoe",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "bluemahoe",
@@ -144,6 +210,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "catalpa",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "catalpa",
@@ -166,6 +243,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "cedar",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "cedar",
@@ -188,6 +276,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "charred",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "charred",
@@ -210,6 +309,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "dalbergia",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "dalbergia",
@@ -232,6 +342,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "douglasfir",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "douglasfir",
@@ -254,6 +375,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "elm",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "elm",
@@ -276,6 +408,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "empresstree",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "empresstree",
@@ -298,6 +441,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "eucalyptus",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "eucalyptus",
@@ -320,6 +474,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "fir",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "fir",
@@ -342,6 +507,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "ghostgum",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "ghostgum",
@@ -364,6 +540,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "ginkgo",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "ginkgo",
@@ -386,6 +573,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "guajacum",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "guajacum",
@@ -408,6 +606,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "honeylocust",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "honeylocust",
@@ -430,6 +639,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "horsechestnut",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "horsechestnut",
@@ -452,6 +672,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "rosewood",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "rosewood",
@@ -474,6 +705,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "kauri",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "kauri",
@@ -496,6 +738,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "leadwood",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "leadwood",
@@ -518,6 +771,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "linden",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "linden",
@@ -540,6 +804,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "mahogany",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "mahogany",
@@ -562,6 +837,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "mangrove",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "mangrove",
@@ -584,6 +870,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "ohia",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "ohia",
@@ -606,6 +903,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "poplar",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "poplar",
@@ -628,6 +936,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "redcedar",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "redcedar",
@@ -650,6 +969,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "sal",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "sal",
@@ -672,6 +1002,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "sapele",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "sapele",
@@ -694,6 +1035,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "satinash",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "satinash",
@@ -716,6 +1068,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "saxaul",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "saxaul",
@@ -738,6 +1101,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "spruce",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "spruce",
@@ -760,6 +1134,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "spurgetree",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "spurgetree",
@@ -782,6 +1167,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "sycamore",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "sycamore",
@@ -804,6 +1200,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "tamanu",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "tamanu",
@@ -826,6 +1233,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "tigerwood",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "tigerwood",
@@ -848,6 +1266,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "tuja",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "tuja",
@@ -870,6 +1299,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "umnini",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "umnini",
@@ -892,6 +1332,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "willow",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "willow",
@@ -914,6 +1365,17 @@
     },
     {
         "file": "vintagechestsandtrunks:blocktypes/wood/chest-trunk",
+        "op": "add",
+        "path": "/variantgroups/0/states/-",
+        "value": "yew",
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
         "op": "add",
         "path": "/variantgroups/0/states/-",
         "value": "yew",
@@ -5955,6 +6417,2022 @@
             },
             "accessories": {
                 "base": "game:block/wood/trunk/accessories"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-ash-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/ash*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/ash*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/ash*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/ash*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-azobe-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/azobe*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/azobe*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/azobe*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/azobe*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-banyan-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/banyan*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/banyan*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/banyan*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/banyan*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-beech-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/beech*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/beech*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/beech*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/beech*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-bearnut-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/bearnut*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/bearnut*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/bearnut*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/bearnut*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-bluemahoe-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/bluemahoe*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/bluemahoe*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/bluemahoe*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/bluemahoe*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-catalpa-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/catalpa*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/catalpa*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/catalpa*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/catalpa*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-cedar-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/cedar*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/cedar*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/cedar*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/cedar*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-charred-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/charred*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/charred*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/charred*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/charred*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-dalbergia-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/dalbergia*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/dalbergia*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/dalbergia*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/dalbergia*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-douglasfir-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/douglasfir*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/douglasfir*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/douglasfir*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/douglasfir*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-elm-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/elm*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/elm*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/elm*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/elm*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-empresstree-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/empresstree*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/empresstree*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/empresstree*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/empresstree*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-eucalyptus-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/eucalyptus*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/eucalyptus*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/eucalyptus*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/eucalyptus*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-fir-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/fir*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/fir*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/fir*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/fir*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-ghostgum-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/ghostgum*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/ghostgum*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/ghostgum*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/ghostgum*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-ginkgo-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/ginkgo*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/ginkgo*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/ginkgo*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/ginkgo*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-guajacum-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/guajacum*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/guajacum*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/guajacum*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/guajacum*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-honeylocust-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/honeylocust*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/honeylocust*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/honeylocust*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/honeylocust*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-horsechestnut-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/horsechestnut*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/horsechestnut*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/horsechestnut*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/horsechestnut*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-rosewood-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/rosewood*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/rosewood*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/rosewood*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/rosewood*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-kauri-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/kauri*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/kauri*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/kauri*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/kauri*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-leadwood-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/leadwood*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/leadwood*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/leadwood*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/leadwood*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-linden-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/linden*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/linden*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/linden*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/linden*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-mahogany-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/mahogany*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/mahogany*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/mahogany*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/mahogany*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-mangrove-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/mangrove*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/mangrove*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/mangrove*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/mangrove*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-ohia-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/ohia*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/ohia*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/ohia*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/ohia*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-poplar-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/poplar*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/poplar*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/poplar*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/poplar*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-redcedar-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/redcedar*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/redcedar*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/redcedar*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/redcedar*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-sal-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/sal*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/sal*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/sal*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/sal*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-sapele-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/sapele*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/sapele*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/sapele*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/sapele*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-satinash-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/satinash*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/satinash*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/satinash*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/satinash*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-saxaul-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/saxaul*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/saxaul*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/saxaul*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/saxaul*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-spruce-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/spruce*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/spruce*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/spruce*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/spruce*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-spurgetree-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/spurgetree*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/spurgetree*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/spurgetree*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/spurgetree*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-sycamore-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/sycamore*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/sycamore*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/sycamore*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/sycamore*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-tamanu-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/tamanu*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/tamanu*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/tamanu*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/tamanu*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-tigerwood-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/tigerwood*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/tigerwood*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/tigerwood*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/tigerwood*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-tuja-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/tuja*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/tuja*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/tuja*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/tuja*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-umnini-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/umnini*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/umnini*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/umnini*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/umnini*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-willow-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/willow*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/willow*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/willow*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/willow*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:blocktypes/wood/labeledchest",
+        "op": "add",
+        "path": "/texturesByType/*-yew-*",
+        "value": {
+            "normal-labeled-sides2": {
+                "base": "bdtree:block/wood/planks/yew*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "normal-labeled-lid": {
+                "base": "bdtree:block/wood/planks/yew*"
+            },
+            "normal-labeled-accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "normal-labeled-label": {
+                "base": "game:block/wood/chest/label"
+            },
+            "sides2": {
+                "base": "bdtree:block/wood/planks/yew*",
+                "blendedOverlays": [
+                    {
+                        "base": "vintagechestsandtrunks:block/wood/trunk/sides",
+                        "blendMode": "Normal"
+                    }
+                ]
+            },
+            "lid": {
+                "base": "bdtree:block/wood/planks/yew*"
+            },
+            "accessories": {
+                "base": "game:block/wood/trunk/accessories"
+            },
+            "label": {
+                "base": "game:block/wood/chest/label"
             }
         },
         "dependsOn": [
@@ -6134,6 +8612,88 @@
                 "code": "vintagechestsandtrunks:chest-trunk-{wood}-east",
                 "attributes": {
                     "type": "normal-generic"
+                }
+            }
+        },
+        "dependsOn": [
+            {
+                "modid": "bdtree"
+            }
+        ]
+    },
+    {
+        "file": "vintagechestsandtrunks:recipes/grid/chest-labeled",
+        "op": "add",
+        "path": "/-",
+        "value": {
+            "ingredientPattern": "S,C",
+            "ingredients": {
+                "S": {
+                    "type": "block",
+                    "code": "game:sign-ground-north"
+                },
+                "C": {
+                    "type": "block",
+                    "code": "vintagechestsandtrunks:chest-{wood}-east",
+                    "attributes": {
+                        "type": "normal-generic"
+                    }
+                }
+            },
+            "allowedVariants": {
+                "wood": [
+                    "ash",
+                    "azobe",
+                    "banyan",
+                    "beech",
+                    "bearnut",
+                    "bluemahoe",
+                    "catalpa",
+                    "cedar",
+                    "charred",
+                    "dalbergia",
+                    "douglasfir",
+                    "elm",
+                    "empresstree",
+                    "eucalyptus",
+                    "fir",
+                    "ghostgum",
+                    "ginkgo",
+                    "guajacum",
+                    "honeylocust",
+                    "horsechestnut",
+                    "rosewood",
+                    "kauri",
+                    "leadwood",
+                    "linden",
+                    "mahogany",
+                    "mangrove",
+                    "ohia",
+                    "poplar",
+                    "redcedar",
+                    "sal",
+                    "sapele",
+                    "satinash",
+                    "saxaul",
+                    "spruce",
+                    "spurgetree",
+                    "sycamore",
+                    "tamanu",
+                    "tigerwood",
+                    "tuja",
+                    "umnini",
+                    "willow",
+                    "yew"
+                ]
+            },
+            "shapeless": true,
+            "width": 1,
+            "height": 2,
+            "output": {
+                "type": "block",
+                "code": "vintagechestsandtrunks:labeledchest-{wood}-east",
+                "attributes": {
+                    "type": "normal-labeled"
                 }
             }
         },
