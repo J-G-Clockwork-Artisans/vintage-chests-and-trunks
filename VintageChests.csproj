@@ -21,6 +21,10 @@
       <HintPath>..\Vintagestory\Mods\VSSurvivalMod.dll</HintPath>
       <Private>false</Private>
     </Reference>
+    <Reference Include="VSEssentials">
+      <HintPath>..\Vintagestory\Mods\VSEssentials.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
     <Reference Include="0Harmony">
       <HintPath>..\Vintagestory\Lib\0Harmony.dll</HintPath>
       <Private>false</Private>

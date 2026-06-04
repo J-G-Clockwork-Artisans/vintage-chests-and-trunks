@@ -56,7 +56,7 @@
 	],
 	"entityBehaviors": [{ "name": "Animatable" }],
 	"variantgroups": [
-		{ "code": "wood", "states": ["oak", "birch", "pine", "redwood", "ebony", "larch", "kapok", "maple", "purpleheart", "walnut", "baldcypress", "acacia"] },
+		{ "code": "wood", "states": ["generic", "oak", "birch", "pine", "redwood", "ebony", "larch", "kapok", "maple", "purpleheart", "walnut", "baldcypress", "acacia"] },
 		{ "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
 	],
 	"creativeinventory": { },
@@ -123,7 +123,24 @@
 		"accessories": { "base": "game:block/wood/trunk/accessories" },
 		"label": { "base": "game:block/wood/chest/label" }
 	},
-	"texturesByType": {},
+	"texturesByType": {
+		"*-generic-*": {
+			"normal-labeled-right-side": { "base": "game:block/wood/trunk/right-side" },
+			"normal-labeled-left-side": { "base": "game:block/wood/trunk/left-side" },
+			"normal-labeled-sides2": { "base": "game:block/wood/trunk/sides" },
+			"normal-labeled-lid": { "base": "game:block/wood/trunk/lid" },
+			"normal-labeled-accessories": { "base": "game:block/wood/trunk/accessories" },
+			"normal-labeled-label": { "base": "game:block/wood/chest/label" },
+
+			"right-side": { "base": "game:block/wood/trunk/right-side" },
+			"left-side": { "base": "game:block/wood/trunk/left-side" },
+			"sides2": { "base": "game:block/wood/trunk/sides" },
+			"lid": { "base": "game:block/wood/trunk/lid" },
+			"accessories": { "base": "game:block/wood/trunk/accessories" },
+			"label": { "base": "game:block/wood/chest/label" }
+		}
+	},
+	"placedPriorityInteract": true,
 	"blockmaterial": "Wood",
 	"replaceable": 900,
 	"resistance": 3,

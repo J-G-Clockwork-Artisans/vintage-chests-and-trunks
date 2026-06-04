@@ -17,19 +17,39 @@ namespace VintageChestsAndTrunks
             
             ICoreClientAPI? api = traverse.Field("api").GetValue() as ICoreClientAPI;
             BlockPos? pos = traverse.Field("pos").GetValue() as BlockPos;
-            LoadedTexture? loadedTexture = traverse.Field("loadedTexture").GetValue() as LoadedTexture;
             Matrixf? modelMat = traverse.Field("ModelMat").GetValue() as Matrixf;
-            MeshRef? quadModelRef = traverse.Field("quadModelRef").GetValue() as MeshRef;
 
-            if (api == null || pos == null || loadedTexture == null || modelMat == null || quadModelRef == null)
+            if (api == null || pos == null || modelMat == null)
             {
-                return true; // Fall back to original method if something goes wrong
+                return true; // Fall back to original method if critical fields are null
             }
 
             Block block = api.World.BlockAccessor.GetBlock(pos);
             if (block == null || block.Code.Domain != "vintagechestsandtrunks" || !block.Code.Path.Contains("labeledtrunk"))
             {
                 return true; // Not our labeled trunk, fall back to vanilla rendering
+            }
+
+            LoadedTexture? loadedTexture = traverse.Field("loadedTexture").GetValue() as LoadedTexture;
+            if (loadedTexture == null)
+            {
+                // Generate the text texture immediately if it is null (e.g. during typing updates)
+                // This prevents falling back to the vanilla renderer for 1 frame which causes left-shifted blinking
+                loadedTexture = traverse.Method("RenderText").GetValue() as LoadedTexture;
+                if (loadedTexture != null)
+                {
+                    traverse.Field("loadedTexture").SetValue(loadedTexture);
+                }
+                else
+                {
+                    return false; // Skip drawing if texture couldn't be generated
+                }
+            }
+
+            MeshRef? quadModelRef = traverse.Field("quadModelRef").GetValue() as MeshRef;
+            if (quadModelRef == null)
+            {
+                return true; // Fall back to original method if quadModelRef is still null
             }
 
             if (loadedTexture.TextureId == 0 || stage != EnumRenderStage.Opaque)
@@ -51,7 +71,7 @@ namespace VintageChestsAndTrunks
             try
             {
                 render.GlDisableCullFace();
-                render.GlToggleBlend(true, EnumBlendMode.Glow);
+                render.GlToggleBlend(true, EnumBlendMode.PremultipliedAlpha);
 
                 float rotY = (float)traverse.Field("rotY").GetValue();
                 float quadWidth = (float)traverse.Field("QuadWidth").GetValue();
@@ -62,12 +82,13 @@ namespace VintageChestsAndTrunks
                 shader.Tex2D = loadedTexture.TextureId;
                 
                 // Translate matrix specifically for double chest (trunk) dimensions
+                // Changed Z translation from 0.0925f to 0.0915f to prevent text culling at horizontal angles
                 shader.ModelMatrix = modelMat.Identity()
                     .Translate(pos.X - cameraPos.X, pos.Y - cameraPos.Y, pos.Z - cameraPos.Z)
                     .Translate(0.5f, 0.5f, 0.5f)
                     .RotateY(rotY + (float)Math.PI)
                     .Translate(-0.5f, -0.5f, -0.5f)
-                    .Translate(0f, 0.35f, 0.0925f) // Correct offset for label on trunk
+                    .Translate(0f, 0.35f, 0.0915f) // Correct offset for label on trunk
                     .Scale(0.45f * quadWidth, 0.45f * quadHeight, 0.45f * quadWidth)
                     .Values;
 
@@ -78,6 +99,21 @@ namespace VintageChestsAndTrunks
                 shader.SsaoAttn = 0f;
                 shader.AlphaTest = 0.05f;
                 shader.OverlayOpacity = 0f;
+
+                // Maximize light values between block position and the block in front of the trunk face
+                Vec4f lightVal = api.World.BlockAccessor.GetLightRGBs(pos.X, pos.Y, pos.Z);
+                BlockFacing facing = BlockFacing.FromCode(block.Variant["side"]);
+                if (facing != null)
+                {
+                    Vec4f faceLight = api.World.BlockAccessor.GetLightRGBs(pos.X + facing.Normali.X, pos.Y + facing.Normali.Y, pos.Z + facing.Normali.Z);
+                    lightVal = new Vec4f(
+                        Math.Max(lightVal.X, faceLight.X),
+                        Math.Max(lightVal.Y, faceLight.Y),
+                        Math.Max(lightVal.Z, faceLight.Z),
+                        Math.Max(lightVal.W, faceLight.W)
+                    );
+                }
+                shader.RgbaLightIn = lightVal;
                 shader.AddRenderFlags = 0;
 
                 render.RenderMesh(quadModelRef);

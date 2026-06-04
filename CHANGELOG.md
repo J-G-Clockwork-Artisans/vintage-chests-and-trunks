@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0-rc.3] - 2026-06-04
+
+### Added
+- **Wood-Typed Labeled Containers:** You can now write text labels with Charcoal or Chalk on all wood-typed chests and trunks!
+- **Vanilla Labeled Trunk Upgrades:** Upgrading vanilla trunks now yields a generically named "Labeled Trunk" that keeps the vanilla visual style.
+- **Usability Enhancements:** Polished the writing experience with smooth label editing, natural plaque lighting, and easy click-anywhere interactions.
+
+---
+
 ## [1.2.0-rc.1] - 2026-06-02
 
 ### Added
