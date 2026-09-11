@@ -44,6 +44,13 @@ try {
         Remove-Item $ModZipPath -Force
     }
 
+    # 1.5. Compile C# project to DLL
+    Write-Output "Compiling C# mod project..."
+    dotnet build -c Release
+    if ($LASTEXITCODE -ne 0) {
+        throw "Compilation failed!"
+    }
+
     # Create a clean temporary directory for building the zip
     $TempBuildDir = Join-Path $ReleaseDir "temp_build"
     if (Test-Path $TempBuildDir) {
@@ -60,6 +67,18 @@ try {
 
     if (Test-Path "modicon.png") {
         Copy-Item -Path "modicon.png" -Destination $TempBuildDir -Force
+    }
+
+    # Copy compiled DLL and PDB
+    $DllPath = Join-Path $ModDir "build\vintagechestsandtrunks.dll"
+    if (Test-Path $DllPath) {
+        Copy-Item -Path $DllPath -Destination $TempBuildDir -Force
+        Write-Output "Copied compiled DLL to zip root: $DllPath"
+    }
+
+    $PdbPath = Join-Path $ModDir "build\vintagechestsandtrunks.pdb"
+    if (Test-Path $PdbPath) {
+        Copy-Item -Path $PdbPath -Destination $TempBuildDir -Force
     }
 
     # Run 7z to compress the directory, ensuring Linux-compatible forward slashes
