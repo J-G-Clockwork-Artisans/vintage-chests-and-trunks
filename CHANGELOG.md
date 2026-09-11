@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0] - 2026-09-11
+
+### Added
+- **Wood-Typed Labeled Containers:** You can now write custom text labels with Charcoal or Chalk on all wood-typed chests and trunks!
+- **Vanilla Labeled Trunk Upgrades:** Upgrading vanilla trunks now yields a generically named "Labeled Trunk" that keeps the vanilla visual style.
+- **Biodiversity: Trees Support:** Added native compatibility for **42 wood variants** from the *Biodiversity: Trees* (`bdtree`) mod.
+- **Biodiversity Crafting Recipes & Translations:** Added recipes and EN/PT-BR localizations for all 42 Biodiversity wood chests and trunks.
+- **C# Code Mod Architecture:** Converted mod to code mod with high-performance Harmony patches for label text rendering, camera matrices, plaque lighting, and multiblock interactions.
+- **Usability Enhancements:** Polished the writing experience with smooth label editing, natural plaque lighting, and easy click-anywhere interactions.
+
+---
+
 ## [1.2.0-rc.3] - 2026-06-04
 
 ### Added
